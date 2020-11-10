@@ -23,7 +23,7 @@ def Play():
     game_str=''
     for i in word:
         if i == ' ':
-            game_str+='    '
+            game_str+='  '
         else:
             game_str+='_ '
 
