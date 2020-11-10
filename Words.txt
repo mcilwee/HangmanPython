@@ -1,0 +1,52 @@
+koala
+cicada
+lion fish
+flamingo
+chameleon
+armadillo
+sea horse
+poison dart frog
+tucan bird
+anteater
+red panda
+ostrich
+great white shark
+moose
+tiger
+kangaroo
+penguin
+monkey
+gorilla
+piranha
+elephant
+cat
+dog
+ocelot
+viper
+parrot
+polar bear
+grizzly bear
+black bear
+ferret
+hamster
+kookaburra
+kingfisher
+goat
+baboon
+vulture
+lemur
+racoon
+otter
+cheetah
+eagle
+walrus
+guinea pig
+manatee
+lobster
+killer whale
+blue whale
+woodpecker
+puffer fish
+sting ray
+crocodile
+alligator
