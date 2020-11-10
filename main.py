@@ -38,8 +38,11 @@ def Play():
         guess=input('guess letter - ')
         if guess=='q':
             break
-        while not guess.isaplha() or len(guess)>1:
+        x=(guess.isalpha())
+        while not(x) or len(guess)>1:
             guess=input('not valid guess\nguess again - ') 
+
+
 
         for i in used:
             if i == guess:
@@ -70,11 +73,10 @@ def Play():
                 check=False
         if check==True:
             print('\nyou win\n')
+            print('the word was',word)
             break
             
 Play()
-        
-
 
 
 
