@@ -1,3 +1,11 @@
+'''
+J MCILWEE 10/11/2020
+text based hangman game
+should be supplied with wordlist called 'Words.txt'
+words should be on individual lines with spaces as ' '
+'''
+
+
 import random
 
 def Play():
@@ -6,7 +14,7 @@ def Play():
     Words=[]
     file = open('Words.txt','rt')
     for word in file:
-        Words.append(str(word)[:-1])
+        Words.append(word.rstrip())
     used=[]
     word=random.choice(Words)
     lives=0
@@ -30,6 +38,8 @@ def Play():
         guess=input('guess letter - ')
         if guess=='q':
             break
+        while not guess.isaplha() or len(guess)>1:
+            guess=input('not valid guess\nguess again - ') 
 
         for i in used:
             if i == guess:
